@@ -1,0 +1,94 @@
+body {
+    background-color: #2E4272;
+}
+
+table {
+    position: fixed;
+    table-layout: fixed;
+    text-align: center;
+    top: 40%;
+    left: 45%;
+}
+
+.cell {
+    background-color: lightskyblue;
+    /* border: ; */
+    border-radius: 5px;
+    box-sizing: border-box;
+    color: black;
+    font-weight: bold;
+    margin: auto;
+    width: 42px;
+    height: 42px;
+    padding: 0px;
+    /* visibility: hidden; */
+    cursor: pointer;
+}
+
+span {
+    color: #fff;
+    font-family: Tahoma, Verdana, sans-serif;
+    padding: 10px;
+}
+
+.gamestats {
+    background-color: #2E4272;
+    display: flex;
+    text-align: center;
+    position: absolute;
+    margin-left: -150px;
+    /* half of width */
+    margin-top: -150px;
+    /* half of height */
+    top: 40.5%;
+    left: 43%;
+    padding: 1em;
+}
+
+.lives {
+    background-color: #4F628E;
+    width: 200px;
+}
+
+.smiley {
+    /* flex-grow: 1; */
+    width: 50px;
+}
+
+.time {
+    background-color: #7887AB;
+    width: 200px;
+    text-align: start;
+}
+
+.level {
+    display: flex;
+    text-align: center;
+    position: absolute;
+    top: 80%;
+    left: 43%;
+    padding: 1em;
+    color: #fff;
+    font-family: Tahoma, Verdana, sans-serif;
+    padding: 10px;
+}
+
+button {
+    padding: 1em;
+    color: rgb(189, 30, 30);
+    font-family: Tahoma, Verdana, sans-serif;
+    padding: 10px;
+    border-radius: 20%;
+}
+
+h1 {
+    text-align: center;
+    font-family: Tahoma, Verdana, sans-serif;
+    color: #fff;
+}
+
+h2 {
+    text-align: center;
+    font-family: Tahoma, Verdana, sans-serif;
+    color: crimson;
+}
